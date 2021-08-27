@@ -530,7 +530,7 @@ void sort(shop *head) {      //排序
 
 void ticket() {
 	char ticket[100];
-	FILE *fp=fopen("小票.txt","r");
+	FILE *fp=fopen("check.txt","r");
 	if(fp!=NULL) {
 		while(fscanf(fp,"%s",ticket)!=EOF) {
 			printf("%s\n",ticket);
